@@ -1,0 +1,23 @@
+{
+  "name": "serverest-automation-e2e-api",
+  "version": "1.0.0",
+  "description": "Automação do ServeRest",
+  "author": "Lucas Guedes",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "@faker-js/faker": "8.4.1",
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.32.0",
+    "cypress": "12.2.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "test:api": "cypress run --spec './cypress/e2e/api/**/**/*.cy.js' --env allure=true && allure generate allure-results --clean && allure open",
+    "test:ui": "cypress run --spec './cypress/e2e/ui/**/*.cy.js' --env allure=true && allure generate allure-results --clean && allure open",
+    "test:all": "cypress run --env allure=true && allure generate allure-results --clean && allure open",
+    "allure": "allure-commandline",
+    "report": "allure generate allure-results --clean && allure open"
+  }
+}
