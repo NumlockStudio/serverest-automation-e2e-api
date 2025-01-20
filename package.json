@@ -14,10 +14,10 @@
   },
   "scripts": {
     "cy:open": "cypress open",
-    "test:api": "cypress run --spec './cypress/e2e/api/**/**/*.cy.js' --env allure=true && allure generate allure-results --clean && allure open",
-    "test:ui": "cypress run --spec './cypress/e2e/ui/**/*.cy.js' --env allure=true && allure generate allure-results --clean && allure open",
-    "test:all": "cypress run --env allure=true && allure generate allure-results --clean && allure open",
+    "test:api": "cypress run --spec './cypress/e2e/api/**/**/*.cy.js' --env allure=true && allure generate --clean",
+    "test:ui": "cypress run --spec './cypress/e2e/ui/**/*.cy.js' --env allure=true && allure generate --clean",
+    "test:all": "cypress run --env allure=true && allure generate --clean",
     "allure": "allure-commandline",
-    "report": "allure generate allure-results --clean && allure open"
+    "report": "allure generate --clean"
   }
 }
