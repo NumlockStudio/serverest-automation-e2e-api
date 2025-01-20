@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1112","login inválido","","Mon Jan 20 00:05:14 UTC 2025","passed","Mon Jan 20 00:05:15 UTC 2025","","login","",""
+"","3216","realizar cadastro de usuário","","Mon Jan 20 00:05:04 UTC 2025","passed","Mon Jan 20 00:05:07 UTC 2025","","cadastro","",""
+"","86","deletar usuário","","Mon Jan 20 00:04:58 UTC 2025","passed","Mon Jan 20 00:04:58 UTC 2025","","Gerenciar usuários","",""
+"","92","consultar usuário por id","","Mon Jan 20 00:04:58 UTC 2025","passed","Mon Jan 20 00:04:58 UTC 2025","","Gerenciar usuários","",""
+"","160","obter lista de usuários","","Mon Jan 20 00:04:58 UTC 2025","passed","Mon Jan 20 00:04:58 UTC 2025","","Gerenciar usuários","",""
+"","1762","login com sucesso","","Mon Jan 20 00:05:12 UTC 2025","passed","Mon Jan 20 00:05:14 UTC 2025","","login","",""
