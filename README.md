@@ -57,6 +57,10 @@ npm run test:all
 
 <br>
 
+## Allure Report
+
+GitHub Pages: [Allure report - Automação ServeRest](https://numlockstudio.github.io/serverest-automation-e2e-api/)
+
 ## ServeRest:
 
 - UI [Serverest](https://front.serverest.dev)
